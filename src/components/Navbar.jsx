@@ -9,7 +9,7 @@ export default function Navbar() {
         <nav className="navbar" id="main-navbar">
             <div className="container nav-container">
                 <Link to="/" className="nav-logo">
-                    <h2>SONY<span>Sinks</span></h2>
+                    <img src="/images/logo.png" alt="Sony Industries" className="logo-image" />
                 </Link>
 
                 <div className="nav-menu" id="nav-menu">

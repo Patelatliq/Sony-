@@ -153,15 +153,10 @@ img {
   align-items: center;
 }
 
-.nav-logo h2 {
-  font-size: 1.75rem;
-  font-weight: 800;
-  margin: 0;
-}
-
-.nav-logo span {
-  color: var(--accent);
-  font-weight: 400;
+.logo-image {
+  height: 48px;
+  width: auto;
+  object-fit: contain;
 }
 
 .nav-menu {
@@ -791,6 +786,13 @@ img {
 
 .contact-info h2 {
   font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.footer-logo-image {
+  height: 54px;
+  width: auto;
+  object-fit: contain;
   margin-bottom: 1rem;
 }
 

@@ -6,7 +6,7 @@ export default function Footer() {
             <div className="container">
                 <div className="footer-grid">
                     <div className="footer-brand">
-                        <h2>SONY<span>Sinks</span></h2>
+                        <img src="/images/logo.png" alt="Sony Industries" className="footer-logo-image" />
                         <p>Premium B2B kitchen sink supplier. Trusted by dealers and builders across India.</p>
                     </div>
                     <div className="footer-links">

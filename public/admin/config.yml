@@ -1,0 +1,24 @@
+backend:
+  name: github
+  repo: Patelatliq/Sony-
+  branch: master
+
+media_folder: "public/images/products"
+public_folder: "/images/products"
+
+collections:
+  - name: "product_list"
+    label: "Products List"
+    label_singular: "Product List"
+    file: "src/data/products.json"
+    fields:
+      - name: products
+        label: Products
+        widget: list
+        fields:
+          - {label: "ID", name: "id", widget: "number"}
+          - {label: "Name", name: "name", widget: "string"}
+          - {label: "Category", name: "category", widget: "select", options: ["regular", "handmade", "quartz"]}
+          - {label: "Size", name: "size", widget: "string", required: false}
+          - {label: "Description", name: "description", widget: "string", required: false}
+          - {label: "Image", name: "image", widget: "image", required: false}

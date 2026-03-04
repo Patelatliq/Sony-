@@ -1,5 +1,6 @@
 import { useSearchParams } from 'react-router-dom'
-import products from '../data/products.json'
+import data from '../data/products.json'
+const products = data.products
 
 const categoryLabels = {
     all: 'All Products',

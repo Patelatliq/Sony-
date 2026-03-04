@@ -154,7 +154,8 @@ img {
 }
 
 .logo-image {
-  height: 48px;
+  height: 64px;
+  max-width: 250px;
   width: auto;
   object-fit: contain;
 }
@@ -790,7 +791,8 @@ img {
 }
 
 .footer-logo-image {
-  height: 54px;
+  height: 72px;
+  max-width: 300px;
   width: auto;
   object-fit: contain;
   margin-bottom: 1rem;
